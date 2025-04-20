@@ -2,10 +2,10 @@ name: Build AppImage
 on:
   workflow_dispatch:
   schedule:
-    - cron: "5 */12 * * *"
-  push:
-    branches:
-      - "main"
+    - cron: '5 */12 * * *'
+  # push:
+  #   branches:
+  #     - "main"
 
 jobs:
   version:
